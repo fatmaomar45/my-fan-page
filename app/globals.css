@@ -1,0 +1,28 @@
+/* app/globals.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #1a1a2e;
+  background-color: rgb(250, 247, 242);
+  padding: 3rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(2, 2, 78)
+  
+}
+p{
+  color:#333;
+  font-weight: bold;
+  
+}
+
+ 

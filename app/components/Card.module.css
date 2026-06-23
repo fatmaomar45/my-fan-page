@@ -1,0 +1,27 @@
+.card {
+  background: rgb(243, 232, 183);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition:
+  transform 0.15s ease,
+   box-shadow 0.15s ease;
+  height: 600px;
+  text-decoration: none;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+.emoji {
+  font-size: 2rem;
+}
+.stars {
+  color: #f5a623;
+}
+
+.card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
