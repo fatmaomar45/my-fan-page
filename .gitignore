@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# large binaries accidentally committed
+public/android-studio-2025.2.1.8-linux.tar.gz
+public/code_1.125.1-1781859603_amd64.deb
+public/Team Techdex.pdf
+public/Product Management 2026.pptx.pdf
+public/12019-wisconsin-1808154_1920.jpg
+public/guest.jpg
+public/guest2.jpg
+public/istockphoto-1307197375-2048x2048.jpg
+public/story.jpg
