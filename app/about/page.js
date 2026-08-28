@@ -25,7 +25,7 @@ export default function About() {
           you to be brave, or bring comfort during difficult times.
         </p>
         <p>
-          This collection is a reflection of poems that resonate with my soul —
+          This collection is a reflection of poems that resonate with my soul 
           words that have guided me, healed me, and reminded me of the beauty in
           being human.
         </p>

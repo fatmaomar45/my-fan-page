@@ -39,7 +39,7 @@ export default async function FaveDetail({ params }) {
           <div className={styles.stars}>{"⭐".repeat(item.rating)}</div>
           <blockquote className={styles.text}>{item.text}</blockquote>
           <div className={styles.actions}>
-            <LikeButton />
+             <LikeButton id={item.id} />
           </div>
         </div>
       </article>
