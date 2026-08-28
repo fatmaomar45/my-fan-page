@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.errorCode {
+  font-size: 6rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  max-width: 400px;
+  margin: 0 auto 2rem;
+}
+
+.homeBtn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.homeBtn:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}

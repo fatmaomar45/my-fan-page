@@ -1,27 +1,76 @@
 .card {
-  background: rgb(243, 232, 183);
+  background: var(--card-bg);
   border-radius: 16px;
-  padding: 1rem;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
-  transition:
-  transform 0.15s ease,
-   box-shadow 0.15s ease;
-  height: 600px;
-  text-decoration: none;
-}
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-}
-.emoji {
-  font-size: 2rem;
-}
-.stars {
-  color: #f5a623;
+  overflow: hidden;
+  box-shadow: 0 4px 14px var(--card-shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--border);
 }
 
-.card img {
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px var(--card-shadow-hover);
+}
+
+.imageWrapper {
   width: 100%;
-  height: 350px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+}
+
+.emoji {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.category {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+.card h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.25rem;
+}
+
+.author {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.blurb {
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.stars {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
 }

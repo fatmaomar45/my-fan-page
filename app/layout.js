@@ -1,12 +1,10 @@
-
-
-
 import "./globals.css";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "My Fan Page",
-  description: "A page about the things I love.",
+  description: "A curated collection of my favorite poems that speak to the heart.",
 };
 
 export default function RootLayout({ children }) {
@@ -14,12 +12,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Nav />
-        {children}
-        <footer style={{ marginTop: "3rem", textAlign: "center", color: "#888" }}>
-          Built with Next.js 💙
-        </footer>
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
 }
-
